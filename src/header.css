@@ -1,0 +1,57 @@
+html{
+background: rgba(230, 215, 202, 0.5);
+margin: 0;
+padding: 0;
+}
+.header{
+  background-repeat: no-repeat;
+  background-position: bottom;;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.mainLogo{
+  background-color: white;
+  height: auto;
+  width: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5px 5px 5px;
+  position:  fixed;
+  left: 5vw;
+  z-index: 20;
+}
+.logo{
+  width: 80px;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.boutonHeader{
+  height: 40px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 5vw;
+  z-index: 20;
+}
+.retourFrise{
+  background-color: rgb(27, 27, 27);
+  color: white;
+  border: none;
+  height: inherit;
+  font-size: 13px;
+  padding: 0 40px;
+}
+.faireDon{
+  color: white;
+  border: none;
+  height: inherit;
+  font-size: 13px;
+  padding: 0 35px;
+  background-color: rgb(208, 108, 36);
+}

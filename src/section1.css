@@ -1,0 +1,114 @@
+.section1{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  top: -15vw;
+  padding: 0 12vw;
+}
+
+.sinformer{
+  width: 35vw;
+  background: white;
+  /*height: 37vw;*/
+}
+.sinformerBg{
+  width : 35vw;
+  height: 20vw;
+}
+.reseaux{
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  border: 1px solid rgb(168, 168, 168);
+  margin: 20px;
+  padding: 20px;
+}
+.sinformerTitre{
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: O;
+  font-family: Myriad Pro;
+  color: rgb(11, 48, 84);
+}
+.iconReseaux{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.iconReseaux a{
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.facebook{
+  padding: 7px;
+  background-color: rgb(64, 83, 152);
+  color: white;
+  border-radius: 2px;
+}
+.tweeter{
+  padding: 7px;
+  background-color: rgb(0, 194, 255);
+  color: white;
+  border-radius: 2px;
+}
+
+.pinterest{
+  padding: 7px 15px;
+  background-color: white;
+  border: 1px solid rgb(196, 196, 196);
+  color: rgb(255, 89, 89);
+  border-radius: 2px;
+  font-family: SignPainter;
+  font-size: 20px;
+}
+
+.tumblr{
+  padding: 7px;
+  background-color: rgb(63, 83, 119);
+  color: white;
+  border-radius: 2px;
+}
+
+.moratoire{
+  width: 30vw;
+  background-color: white;
+  padding: 20px;
+}
+
+.moratoireContent{
+  border: 1px solid rgb(189, 189, 189);
+  padding: 30px;
+}
+
+.moratoireTitre{
+  font-size: 35px;
+  font-family: Myriad Pro;
+
+}
+.moratoireTitre h2{
+  color: rgb(28, 97, 142);
+  font-weight: 200;
+}
+.moratoireTitre h3{
+  color: rgb(28, 73, 142);
+  font-weight: 600;
+}
+.introContainer{
+  padding-bottom: 50px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+.introContent{
+  font-weight: 100;
+  color: rgb(185, 185, 185);
+  font-style: italic;
+}
+
+.mainTextContainer{
+  padding-top: 50px;
+  color: rgb(185, 185, 185);
+  font-weight: 100;
+}
